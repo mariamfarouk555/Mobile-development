@@ -1,0 +1,17 @@
+import 'package:project/project.dart' as project;
+
+void main() {
+  String str1 = 'Hello';
+  String str2 = ' World';
+  String concatenated = str1 + str2;
+  int length = concatenated.length;
+  String substring = concatenated.substring(0, 7);
+  String upper = concatenated.toUpperCase();
+  String lower = concatenated.toLowerCase();
+
+  print('Concatenated: $concatenated');
+  print('Length: $length');
+  print('Substring: $substring');
+  print('Uppercase: $upper');
+  print('Lowercase: $lower');
+}
