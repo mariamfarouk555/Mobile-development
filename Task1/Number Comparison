@@ -1,0 +1,14 @@
+import 'package:project/project.dart' as project;
+
+void main() {
+  int a = 10;
+  int b = 20;
+  int c = 15;
+
+  int largest = (a > b && a > c) ? a : (b > c ? b : c);
+  int smallest = (a < b && a < c) ? a : (b < c ? b : c);
+
+  print('Numbers: $a, $b, $c');
+  print('Largest number: $largest');
+  print('Smallest number: $smallest');
+}
