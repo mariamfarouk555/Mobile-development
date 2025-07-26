@@ -1,0 +1,14 @@
+import 'package:project/project.dart' as project;
+
+import 'dart:io';
+void main() {
+  stdout.write('Enter a string or number: ');
+  String input = stdin.readLineSync()!;
+  String reversed = input.split('').reversed.join();
+
+  if (input == reversed) {
+    print('$input is a palindrome.');
+  } else {
+    print('$input is not a palindrome.');
+  }
+}
