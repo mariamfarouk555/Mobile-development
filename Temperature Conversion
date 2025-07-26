@@ -1,0 +1,7 @@
+import 'package:project/project.dart' as project;
+
+void main() {
+  double celsius = 25;
+  double fahrenheit = celsius * 9 / 5 + 32;
+  print('The temperature is $celsius°C is $fahrenheit°F.');
+}
